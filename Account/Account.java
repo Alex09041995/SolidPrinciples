@@ -12,9 +12,7 @@ public class Account {
 
     }
     
-    public void payment (String numberAccount, BigDecimal sum) { /** метод оплаты */
 
-    }
 
 
 

@@ -13,10 +13,4 @@ public class DepositAccount extends Account { /** Класс-наследник 
     public void refill (String numberAccount, BigDecimal sum) { /** Метод пополенния счёта */
 
     }
-
-    @Override
-    public void payment (String numberAccount, BigDecimal sum) { /** метод оплаты */
-        throw new UnsupportedOperationException("Операция не поддерживается");
-    }
-
 }
